@@ -8,14 +8,14 @@ No dependencies. 1K minified before gzip.
 
 ## Installation
 
+**Install with JSPM**
+```
+jspm install appendAround=github:davidrapson/vanillaAppendAround
+```
+
 **Install with bower**
 ```
 bower install https://github.com/davidrapson/vanillaAppendAround.git
-```
-
-**Install with JSPM**
-```
-jspm install vanillaAppendAround=github:davidrapson/vanillaAppendAround
 ```
 
 ## How-to
