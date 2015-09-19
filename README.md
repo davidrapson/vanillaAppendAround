@@ -23,55 +23,15 @@ No dependencies. 1K minified before gzip.
 
 ## Usage
 
-**Example markup:**
-
-```html
-<div class="u-display-wide" data-set="demo"></div>
-
-<ul>
-  <li>Lorem ipsum dolor sit amet.</li>
-  <li>Maiores delectus eum, velit perferendis!</li>
-  <li>Illo repellat, quisquam unde voluptate?</li>
-  <li>Quo magnam suscipit veniam, rerum.</li>
-  <li>Quo iure totam temporibus odit!</li>
-  <li>Reiciendis suscipit necessitatibus inventore quaerat.</li>
-</ul>
-
-<div class="u-display-until-wide" data-set="demo">
-  <div class="sample js-append">Sample appendAround Element</div>
-</div>
-```
-
-**Example css:**
-
-```css
-.sample {
-  padding: 1em;
-  background: #f3f3f3;
-}
-
-.u-display-wide {
-  display: none;
-}
-@media (min-width: 45em) {
-  .u-display-wide {
-    display: block;
-  }
-}
-
-@media (min-width: 45em) {
-  .u-display-until-wide {
-    display: none;
-  }
-}
-```
-
-**Example JS:**
+See [demo](demo.html) for full usage. Configuration options are as follows:
 
 ```js
 appendAround({
-  selector: '.js-append', // Selector to use for appendAround elements. [Default '.js-append']
-  attribute: 'data-set' // Attribute to
+  // Selector to use for appendAround elements. [Default '.js-append']
+  selector: '.js-append',
+  // Attribute to use for sets. [Default 'data-set']
+  attribute: 'data-set',
+  // Amount to debounce resize listener (ms). [Default 66]
+  debounceDuration: 66
 });
 ```
-
