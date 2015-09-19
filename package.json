@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-append-aroudn",
+  "version": "0.1.0",
+  "description": "A vanilla JavaScript version of Filament Group's AppendAround",
+  "main": "appendAround.js",
+  "scripts": {
+    "test": "xo --space 4",
+    "build": "uglifyjs appendAround.js --compress --mangle -o appendAround.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidrapson/vanillaAppendAround.git"
+  },
+  "author": "David Rapson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidrapson/vanillaAppendAround/issues"
+  },
+  "homepage": "https://github.com/davidrapson/vanillaAppendAround#readme",
+  "devDependencies": {
+    "uglifyjs": "^2.4.10",
+    "xo": "^0.9.0"
+  }
+}
