@@ -1,0 +1,27 @@
+{
+  "name": "vanillaAppendAround",
+  "version": "0.1.0",
+  "homepage": "https://github.com/davidrapson/vanillaAppendAround",
+  "description": "A vanilla JavaScript port of Filament Group's AppendAround. A pattern for responsive markup.",
+  "main": "appendAround.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "append",
+    "responsive",
+    "rwd"
+  ],
+  "authors": [
+    "David Rapson"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "demo.html",
+    "node_modules"
+  ]
+}
