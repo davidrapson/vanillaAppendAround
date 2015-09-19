@@ -4,7 +4,7 @@ A vanilla JavaScript port of [Filament Group's AppendAround](https://github.com/
 
 No dependencies. 1K minified before gzip.
 
-**[View Demo](https://rawgit.com/davidrapson/vanillaAppendAround/master/demo.html)**
+**[View Demo](https://rawgit.com/davidrapson/vanillaAppendAround/master/examples/global/index.html)**
 
 ## Browser Support
 
@@ -23,7 +23,7 @@ No dependencies. 1K minified before gzip.
 
 ## Usage
 
-See [demo](demo.html) for full usage. Configuration options are as follows:
+See [examples](examples/) for full usage. Configuration options are as follows:
 
 ```js
 appendAround({

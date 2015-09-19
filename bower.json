@@ -21,7 +21,7 @@
   "ignore": [
     "**/.*",
     "bower_components",
-    "demo.html",
+    "examples",
     "node_modules"
   ]
 }
