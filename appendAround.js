@@ -1,4 +1,4 @@
-/* eslint-env browser, node, amd */
+/* eslint-env browser, amd */
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define([], factory);
@@ -9,15 +9,6 @@
     }
 })(this, function () {
     var settings = {};
-
-    var canRun = (
-        'querySelector' in document &&
-        'getComputedStyle' in window
-    );
-
-    if (!canRun) {
-        return false;
-    }
 
     function debounce(func, wait, immediate) {
         var timeout;
@@ -71,6 +62,15 @@
     }
 
     return function (o) {
+        var canRun = (
+            'querySelector' in document &&
+            'getComputedStyle' in window
+        );
+
+        if (!canRun) {
+            return false;
+        }
+
         settings = {
             selector: o && o.selector || '.js-append',
             attribute: o && o.attribute || 'data-set',
