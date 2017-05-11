@@ -1,6 +1,6 @@
 {
   "name": "vanilla-append-around",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A vanilla JavaScript version of Filament Group's AppendAround",
   "main": "appendAround.js",
   "scripts": {
